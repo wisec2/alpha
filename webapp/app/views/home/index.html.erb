@@ -1,0 +1,13 @@
+      <% if session[:userid] == nil %>
+        <h3 align="right"><%= link_to "Login", '/login' %></h3>
+      <% else %>
+        <h3 align="right">Welcome <%= User.find_by(id: session[:userid]).username %>!</h3>
+        <p align="right" text-size="8"><%= link_to "Logout", '/logout' %></p>
+      <% end %>
+
+      <h3 align="right"><%= link_to "Register", '/register' %></h3>
+      <h3 align="right"><%= link_to "Users", '/users' %></h3>
+      <%= link_to "Events List", controller: "events" %>
+  
+      <div id="map_canvas" style="height: 600px; width: 600px"> </div>
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100 }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <title> Alpha1 </title>
+    <h1>Webapp-v1</h1>
+  </head>  
+    
+  <body>
+      <% if session[:userid] == nil %>
+        <h3 align="right"><%= link_to "Login", '/login' %></h3>
+      <% else %>
+        <script type="text/javascript"
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYGZocGtLYnDoQjq9SKD-KyT073FSpmpw&sensor=true">
+        </script>
+
+        <script type="text/javascript">
+          function initialize() {
+            var mapOptions = {
+              zoom: 8
+              center: new google.maps.LatLng(42.3581, 71.0636)
+            };
+
+            map = new google.maps.Maps(document.getElementById('map-canvas'),
+              mapOptions);
+          }
+
+          google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+
+        <h3 align="right">Welcome <%= User.find_by(id: session[:userid]).username %>!</h3>
+        <p align="right" text-size="8"><%= link_to "Logout", '/logout' %></p>
+      <% end %>
+
+      <h3 align="right"><%= link_to "Register", '/register' %></h3>
+      <h3 align="right"><%= link_to "Users", '/users' %></h3>
+      <%= link_to "Events List", controller: "events" %>
+  
+      <div id='map-canvas'>
+  </body>
+

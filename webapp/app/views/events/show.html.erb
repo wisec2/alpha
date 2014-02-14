@@ -1,0 +1,18 @@
+<p>
+  <strong> Title: </strong>
+  <%= @event.title %>
+</p>
+
+<p>
+  <strong> Description </strong>
+  <%= @event.description %> </strong>
+</p>
+
+<%= form_tag(controller: "user_to_event_maps", action: "create", method: "post") do %>
+  <%= hidden_field_tag(:eid, @event.id) %>
+  <%= hidden_field_tag(:uid, session[:userid]) %> 
+  <%= submit_tag("I'm going!") %>
+<% end %>
+
+<%= link_to 'Back', events_path %>
+<%= link_to 'Edit', edit_event_path(@event) %>

@@ -1,0 +1,46 @@
+
+
+<%= form_for @user, url: {action: "create"} do |f| %>
+  <% if @user.errors.any? %>
+  <div id="errorExplanation">
+    <h2><%= pluralize(@user.errors.count, "error") %> prohibited your account from being created:</h2>
+    <ul>
+    <% @user.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+  <p>
+    <%= f.label :username %>
+    <%= f.text_field :username %>
+  </p>
+
+  <p>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+  </p>
+
+  <p>
+    <%= f.label :dob %>
+    <%= f.date_select :dob, :born_on %>
+  </p>
+
+  <p>
+    <%= f.label :gender %>
+    <%= f.radio_button :gender, "M" %>
+    <%= label :genderM, "M" %>
+    <%= f.radio_button :gender, "F" %>
+    <%= label :genderF, "F" %>
+  </p>
+
+  <p>
+    <%= f.label :email %>
+    <%= email_field_tag :email %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

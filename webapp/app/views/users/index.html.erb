@@ -1,0 +1,22 @@
+<h1> Users </h1>
+
+<table>
+  <tr>
+    <th> Username </th>
+    <th> Password </th>
+    <th> Birthdate </th>
+    <th> Gender </th>
+    <th> Email </th>
+  </tr>
+
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.username %></td>
+      <td><%= user.password %></td>
+      <td><%= user.birthdate %></td>
+      <td><%= user.gender %></td>
+      <td><%= user.email %></td>
+    </tr>
+  <% end %>
+</table>
+
