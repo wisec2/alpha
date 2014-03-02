@@ -35324,3 +35324,351 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-02 18:32:55
 
 
 Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-03-02 18:32:55 -0500
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-03-02 18:34:18 -0500
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (2.3ms)
+  Rendered events/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:18 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/user_to_event_maps.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/user_to_event_maps.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:19 -0500
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (1.6ms)
+  Rendered events/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/user_to_event_maps.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/user_to_event_maps.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (1.8ms)
+  Rendered events/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/user_to_event_maps.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/user_to_event_maps.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:20 -0500
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (1.6ms)
+  Rendered events/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/user_to_event_maps.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/user_to_event_maps.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (1.8ms)
+  Rendered events/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/user_to_event_maps.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/user_to_event_maps.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/events/new" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+Processing by EventsController#new as HTML
+  Rendered events/_form.html.erb (1.8ms)
+  Rendered events/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/events.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/user_to_event_maps.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/events.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/user_to_event_maps.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-02 18:34:21 -0500
